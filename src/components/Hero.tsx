@@ -1,4 +1,4 @@
-import eliraProfile from "@/assets/elira-profile.png";
+import eliraPhoto from "@/assets/elira-profile.png";
 
 const Hero = () => {
   return (
@@ -27,9 +27,9 @@ const Hero = () => {
           {/* Right side - Elira's photo */}
           <div className="flex justify-center lg:justify-end fade-in-delay-1">
             <div className="relative">
-              <div className="absolute -inset-4 bg-gradient-to-br from-sky-blue/20 to-blush/20 rounded-3xl blur-xl glow"></div>
+              <div className="absolute -inset-4 bg-gradient-glow rounded-3xl blur-xl glow"></div>
               <img
-                src={eliraProfile}
+                src={eliraPhoto}
                 alt="Elira, your executive assistant"
                 className="relative w-80 h-96 lg:w-96 lg:h-[480px] object-cover rounded-3xl glass-card glow"
               />
